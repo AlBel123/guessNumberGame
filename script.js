@@ -82,7 +82,7 @@ function submit(){
             }   
      
             if (guessInput2===guessInput1||guessInput2===guessInput3||guessInput2===guessInput4||guessInput3===guessInput1||guessInput3===guessInput4||guessInput4===guessInput1){
-                alert("Try again. digits should not be repeated!")
+                alert("Try again. digits should not be repeated or null!")
                 y="?"
             }
             else{
