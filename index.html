@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  initial-scale=1.0>
+    <title>Number</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><img id=math src="images/25539879_5evt_7hel_220316.jpg" alt="Math Title"></div>
+   <main> <button id=gameStart>Restart</button>
+
+
+
+    <form class="form" id=form>
+        <input class=guess id=guess1 type="text" maxlength="4" autofocus>
+
+   
+    </form>
+     <button id=submit type="button">Submit</button>
+
+    <div class="grid1">
+        <div class=number id=number1>?</div> 
+        <div class=number id=number2>?</div> 
+        <div class=number id=number3>?</div> 
+        <div class=number id=number4>?</div> 
+    </div>
+
+    <div class="grid2">
+        <div>Guessed number(s):</div>
+        <div>In proper position(s):</div>
+        <div class=result id=resultNumber>0</div> 
+        <div class=result id=resultPosition>0</div> 
+    </div>
+
+  
+  
+        <div id="gameLog"><h3 id="attempt"></h3><h3 id="score"></h3></div>
+        <div ><img id="win" src="" alt=""></div>
+        
+        <audio id=myAudio src="sounds/466133__humanoide9000__victory-fanfare.wav"></audio>
+        <audio id="enterDigits" src="sounds/cow-bell.wav"></audio>
+        
+
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

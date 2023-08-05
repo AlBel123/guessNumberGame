@@ -1,0 +1,128 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    
+  }
+main{
+  display:flex;
+}
+
+#math{
+  width: 500px;
+}
+h3, h1{
+    font-weight: 400;
+}
+
+#gameStart, #submit{
+  background-color: orange;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 40px; 
+  margin-left: 3px;
+  border: solid;
+}
+
+#gameStart{
+  margin-left: 40px;
+}
+
+
+
+
+
+
+.grid1{
+    width:200px;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+  }
+
+  .number, .result{
+    border: solid gray;
+    padding: 3rem;
+    margin: 0;
+    font-size: 30pt;
+    width: 20px;
+    
+  }
+
+  .form input{
+    width: 150px;
+    letter-spacing: 1rem;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+  }
+
+  .grid2{
+    width:100px;
+    margin-left: 27vw;
+    margin-top: 5vh;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+  }
+
+
+
+#gameLog {
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 120px;
+    
+}
+
+#win{
+    position: absolute;
+    bottom:20px;
+    left: 160px;
+    width:200px;
+}
+
+#score {
+  margin-left: 100px;
+}
+
+.number, .grid2{
+  display:none;
+}
+
+@media (max-width: 600px) {
+ 
+ body{
+  margin-left: 20vw;
+ }
+  #math {
+    width: 400px;
+  }
+  #gameStart, #submit{
+    height: 52px;
+    padding: 0.2rem;
+  }
+  button{
+    width: 200px;
+  }
+  #gameLog {
+
+    top: 350px;
+    left:170px;
+}
+#win{
+ 
+  top: 650px;
+  bottom: 0px;
+  left: 200px;
+
+}
+}
+  
+  
+
