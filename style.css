@@ -110,15 +110,21 @@ color: aqua;
 
   #math {
     width: 400px;
+    margin-left: -10px;
   }
   #gameStart, #submit{
     height: 52px;
     padding: 0.2rem;
     min-width: 80px;
+    margin-left: 0px;
 
   
   }
 
+  .form input{
+
+    font-size: 30px;
+  }
   #gameLog {
 
     top: 350px;
