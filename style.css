@@ -91,6 +91,16 @@ h3, h1{
   margin-left: 100px;
 }
 
+button:hover{
+  opacity: 65%;
+
+}
+
+button:active{
+color: aqua;
+}
+
+
 .number, .grid2{
   display:none;
 }
@@ -105,7 +115,7 @@ h3, h1{
     height: 52px;
     padding: 0.2rem;
     min-width: 80px;
-   
+
   
   }
 
