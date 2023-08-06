@@ -151,7 +151,7 @@ function submit(){
          function youWin(){   document.getElementById('win').innerHTML="Correct! You win";
 
          var x = document.getElementById("win");
-         x.setAttribute("src", "images/youwin.jpg");
+         x.setAttribute("src", "images/youwin.png");
          x.setAttribute("alt", "The Pulpit Rock");
             console.log("Correct! you win");
             audioWin();
